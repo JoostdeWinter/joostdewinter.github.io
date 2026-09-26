@@ -1,0 +1,16 @@
+{
+  "abstracts": 13437416,
+  "reference_abstracts": 4448927,
+  "all_month_fold_length_denominators_exact": true,
+  "selected_individual_counts_exact_all_months_and_both_halves": true,
+  "selection_objectives_match_direct_union_counts": true,
+  "screening_grouping_selection_in_each_training_half": true,
+  "eligibility_list_fixed": true,
+  "held_out_word_month_choices": 120,
+  "held_out_positive_choices": 120,
+  "group_sizes": [
+    30,
+    30,
+    30
+  ]
+}

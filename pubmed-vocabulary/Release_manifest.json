@@ -1,0 +1,77 @@
+{
+  "feature_archives": [
+    {
+      "name": "PubMed_vocabulary_features_1.zip",
+      "bytes": 382307262,
+      "sha256": "3efdcf77663776eb24ed6bc81d72700036b3c99390fea5f1b891504480708544"
+    },
+    {
+      "name": "PubMed_vocabulary_features_2.zip",
+      "bytes": 385003144,
+      "sha256": "7a8fd2c543c8634b958bbd40ce5ebfa3dee48af699313d58a4e11de7a304abb1"
+    },
+    {
+      "name": "PubMed_vocabulary_features_3.zip",
+      "bytes": 288237232,
+      "sha256": "724386674d074187aa52eea004d484277187c0a1c99e688ad00b3a83eddc0c3e"
+    }
+  ],
+  "files": {
+    "features/PubMed_corrected_features_02.npz": {
+      "bytes": 1570217,
+      "sha256": "56c51022f71a7257acf23e3c0e7f4b59c427fd3a8a4d8bc91da46a2b6f68ec19"
+    },
+    "features/PubMed_corrected_features_03.npz": {
+      "bytes": 120660006,
+      "sha256": "ba4d5c371962df4557d611b792a8f3fa65934a7d19269939f6bf10178e74b184"
+    },
+    "features/PubMed_corrected_features_04.npz": {
+      "bytes": 128983224,
+      "sha256": "b9328c222d5630de025075a78b90e50b8f385e67176ab29166ee317fddabd786"
+    },
+    "features/PubMed_corrected_features_05.npz": {
+      "bytes": 131093161,
+      "sha256": "b7608d6a69e94e834066791fb4ea2c27f77971af709f43a08326960609add1b0"
+    },
+    "features/PubMed_corrected_features_06.npz": {
+      "bytes": 132000121,
+      "sha256": "10968dfe9c57d79b816aa971db91435f67876b9e5f750061f5c75d811b389102"
+    },
+    "features/PubMed_corrected_features_07.npz": {
+      "bytes": 132625774,
+      "sha256": "12414023398ff19de1bb83950034531a2d6273e4a2a00cd04e13b8218e8a5239"
+    },
+    "features/PubMed_corrected_features_08.npz": {
+      "bytes": 120376753,
+      "sha256": "e022cc2fb2c51de01b7caf32f7c5b81d34c86e20f80a2544da17dc8b1b8dcd51"
+    },
+    "features/PubMed_corrected_features_09.npz": {
+      "bytes": 106562526,
+      "sha256": "ce02f3a9e4f8fda3d9b06e271a129836837424b0e3e9d835a57b2c9adaa6cc29"
+    },
+    "features/PubMed_corrected_features_10.npz": {
+      "bytes": 43557128,
+      "sha256": "df647a2d363e828c354a3783a5dbed8c09fe26f860d4d3d3585a9e076cfa3537"
+    },
+    "features/PubMed_corrected_features_11.npz": {
+      "bytes": 30854716,
+      "sha256": "7934b4e7aaedbb13ce5124e0e01834fad5c5b9b75ed5939c9c4cbb99a7f514df"
+    },
+    "features/PubMed_corrected_features_12.npz": {
+      "bytes": 75778468,
+      "sha256": "859630c49fb2757f18e21cae780b3aa24eacec42b301f788a8c9999236859c7e"
+    },
+    "features/PubMed_corrected_features_13.npz": {
+      "bytes": 31478219,
+      "sha256": "9f2bc355f13eb7ae80aa1d23708d3c7f5ab0aef862e75cd795b819aa9dd94b9d"
+    },
+    "features/recovered_01.npz": {
+      "bytes": 2709,
+      "sha256": "45601ce9bb355bfd50bb329b58f98272deee15337479d7c651afae055522672a"
+    },
+    "features/recovered_missing.npz": {
+      "bytes": 2392,
+      "sha256": "dea7b23e145552d356c2d88f6335953c000d4ce379d0272c4a5e96c85012e610"
+    }
+  }
+}

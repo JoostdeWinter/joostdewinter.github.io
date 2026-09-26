@@ -1,0 +1,5 @@
+features/
+matrix_*.npy
+full_hits.npy
+*_word_rates.npz
+__pycache__/

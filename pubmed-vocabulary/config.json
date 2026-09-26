@@ -1,0 +1,26 @@
+{
+  "reference_years": [
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "reference": "all 48 months pooled",
+  "length_standardization": "pooled 2018\u20132021 length distribution within training sample",
+  "semantic_eligibility": "fixed 4,742-word eligibility list",
+  "screen_vocabulary": 22580,
+  "absolute_screen_pp": 0.1,
+  "relative_screen_ratio": 2,
+  "minimum_target_month_count": 20,
+  "minimum_reference_total_count": 20,
+  "groups": 3,
+  "words_per_group": 30,
+  "selection_objective": "mean of 44 monthly coverage differences from pooled 2018\u20132021",
+  "validation": "two-way PMID split; screening, grouping, word selection and peak months determined in each training half and evaluated in the held-out half",
+  "random_seed": 20260920,
+  "kmeans_init": "k-means++",
+  "kmeans_n_init": 30,
+  "kmeans_algorithm": "lloyd",
+  "curve_scaling": "subtract 44-month mean, divide by Euclidean norm",
+  "cluster_naming": "ascending mean month index weighted by positive centroid values"
+}
