@@ -1,0 +1,13 @@
+Quantity,Value
+"Lasso (minimum CV error): mean test RMSE",4.16216143990434
+"Lasso (minimum CV error): median number of nonzero coefficients",5
+"Ridge lowest test RMSE (%) against OLS and Lasso (minimum CV error)",78.3
+"All-zero estimate: mean coefficient MSE (standardized scale)",0.00529337145993368
+"Uncorrelated predictors: OLS mean test RMSE",4.66429739097026
+"Uncorrelated predictors: Ridge mean test RMSE",4.2933375460445
+"Uncorrelated predictors: Lasso (1-SE rule) mean test RMSE",4.37085286278891
+"Square root of expected OLS test MSE, normal predictors (theory)",4.66756969916377
+"OLS coefficient MSE, original scale, correlated predictors",2.48817755264173
+"OLS coefficient MSE, original scale, uncorrelated predictors",0.277807537198629
+"Ratio of the two OLS coefficient MSEs",8.95647964678047
+"Within-block VIF (population)",9.01098901098901
