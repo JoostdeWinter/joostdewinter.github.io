@@ -25,3 +25,7 @@ De Winter, J. C. F. (2026). *Multicollinearity in statistical modeling: A review
 Requirements: MATLAB R2020a or later with the Statistics and Machine Learning Toolbox. The Parallel Computing Toolbox is optional; without it, the Monte Carlo analysis runs serially.
 
 Run `produce_figures.m` in MATLAB. The figures and tables are saved in the folder `multicollinearity_outputs`. Random seeds are fixed, so the results match the files in `results/`.
+
+## License
+
+The code and results are released under the MIT License (see `LICENSE`). Please cite the paper when you use them.
