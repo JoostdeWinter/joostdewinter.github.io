@@ -7,22 +7,27 @@
 <meta name="description" content="Prof. dr. ir. Joost de Winter, Cognitive Robotics Department, Faculty of Mechanical, Maritime and Materials Engineering, Delft University of Technology">
 <style>
   body{margin:0;background:#fff;color:#000;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.55}
-  .wrap{max-width:860px;margin:0 auto;padding:40px 20px 60px}
+  .wrap{max-width:1180px;margin:0 auto;padding:40px 20px 60px}
   header{border-bottom:6px solid #d00000;padding-bottom:16px;margin-bottom:8px}
   h1{font-size:38px;line-height:1.15;margin:0 0 12px}
   header p{margin:0;font-size:18px}
-  h2{font-size:22px;margin:36px 0 12px;padding-left:12px;border-left:6px solid #0033cc;color:#0033cc}
+  h2{font-size:22px;margin:28px 0 10px;padding-left:12px;border-left:6px solid #0033cc;color:#0033cc}
   h3{font-size:18px;margin:18px 0 6px}
   p{margin:0 0 10px}
   .list{list-style:none;margin:0;padding:0}
-  .list li{margin:0 0 9px}
-  .cols{columns:3;column-gap:24px}
-  .cols li{break-inside:avoid;margin:0 0 6px}
+  .list li{margin:0 0 5px}
+  .inline li{display:inline}
+  .inline li:not(:last-child)::after{content:" |";color:#d00000;font-weight:bold}
+  .cols{columns:5;column-gap:20px}
+  .cols li{break-inside:avoid;margin:0 0 4px}
   .dated li{display:grid;grid-template-columns:64px 1fr;column-gap:8px}
   .dated b{color:#d00000}
   a{color:#0033cc;font-weight:bold;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-skip-ink:none}
   a:hover{color:#d00000}
-  footer{margin-top:44px;border-top:4px solid #000;padding-top:10px;font-size:14px}
+  li a{overflow-wrap:anywhere}
+  @media (min-width:900px){.inline li{white-space:nowrap}}
+  footer{margin-top:36px;border-top:4px solid #000;padding-top:10px;font-size:14px}
+  @media (max-width:900px){.cols{columns:3}}
   @media (max-width:600px){h1{font-size:30px}.cols{columns:2}}
 </style>
 </head>
@@ -30,12 +35,9 @@
 <div class="wrap">
   <header>
     <h1>Prof. dr. ir. Joost de Winter</h1>
-    <p>Cognitive Robotics Department<br>
-    Faculty of Mechanical, Maritime and Materials Engineering<br>
-    Delft University of Technology<br>
+    <p>Cognitive Robotics Department, Faculty of Mechanical, Maritime and Materials Engineering, Delft University of Technology<br>
     Mekelweg 2, 2628 CD Delft, the Netherlands<br>
-    E-mail: <a href="mailto:j.c.f.dewinter@tudelft.nl">j.c.f.dewinter@tudelft.nl</a><br>
-    GitHub: <a href="https://github.com/JoostdeWinter">github.com/JoostdeWinter</a></p>
+    E-mail: <a href="mailto:j.c.f.dewinter@tudelft.nl">j.c.f.dewinter@tudelft.nl</a> | GitHub: <a href="https://github.com/JoostdeWinter">github.com/JoostdeWinter</a></p>
   </header>
 
   <h2>Educational Background</h2>
@@ -94,17 +96,19 @@
 
   <h2>Publications / Output</h2>
   <ul class="list">
-    <li style="margin-bottom:16px">De Winter, J. C. F. (2026). <i>Multicollinearity in statistical modeling: A review</i>. <a href="https://joostdewinter.github.io/multicollinearity-review.pdf">https://joostdewinter.github.io/multicollinearity-review.pdf</a></li>
+    <li style="margin-bottom:10px">De Winter, J. C. F. (2026). <i>Multicollinearity in statistical modeling: A review</i>. <a href="https://joostdewinter.github.io/multicollinearity-review.pdf">https://joostdewinter.github.io/multicollinearity-review.pdf</a></li>
+  </ul>
+  <ul class="list inline">
     <li><a href="https://scholar.google.com/citations?hl=en&amp;user=MJ3SNBAAAAAJ&amp;view_op=list_works&amp;pagesize=100">Google Scholar</a></li>
     <li><a href="https://data.4tu.nl/authors/0f7c7098-0807-40e0-ab07-e8ed9e370678">Datasets</a></li>
     <li><a href="https://www.researchgate.net/profile/Joost-De-Winter">ResearchGate</a></li>
     <li><a href="https://pure.tudelft.nl/portal/en/persons/jcf-de-winter%28400d28e2-72fd-4fe0-9498-8f91b1760f78%29/publications.html?page=0&amp;pageSize=all">PURE</a></li>
     <li><a href="https://research.tudelft.nl/en/persons/jcf-de-winter/publications/">TU Delft Research Portal</a></li>
-    <li>Overview of published papers: <a href="https://docs.google.com/document/d/1o03YTRnTlDrisRFtvcWY5Iow81F-x_cjWRYNOwx1KQ8/edit">Publications Joost de Winter</a></li>
+    <li><a href="https://docs.google.com/document/d/1o03YTRnTlDrisRFtvcWY5Iow81F-x_cjWRYNOwx1KQ8/edit">Overview of published papers</a></li>
   </ul>
 
   <h2>Editorial Board Membership</h2>
-  <ul class="list">
+  <ul class="list inline">
     <li><a href="https://www.journals.elsevier.com/accident-analysis-and-prevention/editorial-board">Accident Analysis &amp; Prevention</a></li>
     <li><a href="https://www.tandfonline.com/action/journalInformation?show=editorialBoard&amp;journalCode=terg20">Ergonomics</a></li>
     <li><a href="https://journals.sagepub.com/editorial-board/hfs">Human Factors</a></li>
