@@ -1,0 +1,14 @@
+{
+  "records_before_exclusions": 13517615,
+  "retained_records": 13437416,
+  "excluded_records": 80199,
+  "reasons": {
+    "publication_notice": 64359,
+    "cross_reference_only": 11474,
+    "published_before_2015": 3406,
+    "placeholder": 500,
+    "zero_words": 460
+  },
+  "source_archives": 36,
+  "pmids_unique": true
+}

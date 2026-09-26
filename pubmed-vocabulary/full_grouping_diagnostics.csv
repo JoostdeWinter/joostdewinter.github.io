@@ -1,0 +1,4 @@
+fit,group,cluster_id,word_count,positive_centroid_weighted_month_index,peak_month
+full,Early,1,567,16.81520771641876,202405
+full,Intermediate,0,827,33.18432814087745,202511
+full,Latest,2,1807,39.06768310355885,202608

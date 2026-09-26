@@ -1,0 +1,9 @@
+{
+  "all_eligible_records_scored": 13437416,
+  "all_denominators_match": true,
+  "all_held_out_union_counts_match_independent_feature_pass": true,
+  "each_record_uses_opposite_half_vocabulary": true,
+  "reference_period": "2018–2021",
+  "reference_model": "2018–2021 binomial logit trend with month indicators",
+  "interpretation": "conditional on the historical model representing unassisted writing"
+}
