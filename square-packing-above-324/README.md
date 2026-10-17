@@ -44,4 +44,8 @@ The packings use the staircase-rectangle and four-block method of Arslanov, Must
 
 The numerical search and refinement were performed with GPT-6 Astra under the direction of Joost de Winter. The certificates and checks were produced with Claude (Anthropic).
 
+## Licence
+
+All files in this folder are released under the MIT licence (see `LICENSE`).
+
 Joost de Winter, Delft University of Technology
